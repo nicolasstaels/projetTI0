@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue;
+}
+.lien:hover{
+    color: darkslateblue;
+}
+.lien{
+    color:lightskyblue;
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card-text{
+    font-weight: bold;
+}
+
+#images_cat:hover{
+    transform: scale(1.5);
+    transition: transform .8s ease;
+}
+
+.img-wrapper{
+    display: inline-block;
+    overflow: hidden;
+}

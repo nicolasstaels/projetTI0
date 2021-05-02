@@ -16,24 +16,44 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc9bbf45-a215-4bf7-a016-a1571952d099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/admin_liste_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/admin_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Connexion.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/pg_connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pages/accueil_admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/php/public_footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/page404.php" afterDir="false" />
+    <list default="true" id="fc9bbf45-a215-4bf7-a016-a1571952d099" name="Default Changelist" comment="arborescence">
+      <change afterPath="$PROJECT_DIR$/admin/images/arrosoire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/banner_fleur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/bouquet_ete.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/bouquet_fleur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/fleur_unique.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/rateau.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/rose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/tulipe_jaune.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/js/fonctions_jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Admin.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/AdminBD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Categorie.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/CategorieBD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Produit.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/ProduitBD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/categorie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/produit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index_.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/pg_connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/pg_connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/verifier_connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/php/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/php/public_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +67,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/nicolasstaels/projetTI0" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1oCYLxC8i63oaBHPjkHG0c5Adti" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,20 +93,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\projetTI\.idea" />
-      <recent name="C:\laragon\www\projetTI\pages" />
-      <recent name="C:\laragon\www\projetTI\lib\php" />
-      <recent name="C:\laragon\www\projetTI\admin" />
-      <recent name="C:\laragon\www\projetTI\admin\pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\projetTI\admin\lib\php\classes" />
       <recent name="C:\laragon\www\projetTI\admin\lib\php" />
       <recent name="C:\laragon\www\projetTI" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\projetTI\admin\images" />
+      <recent name="C:\laragon\www\projetTI\admin\lib\php\classes" />
+      <recent name="C:\laragon\www\projetTI\admin\lib\php" />
+      <recent name="C:\laragon\www\projetTI\.idea" />
+      <recent name="C:\laragon\www\projetTI\pages" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,8 +133,18 @@
       <updated>1612791987613</updated>
       <workItem from="1612791988800" duration="2825000" />
       <workItem from="1613116329784" duration="68000" />
-      <workItem from="1615821443667" duration="2980000" />
+      <workItem from="1615821443667" duration="3645000" />
+      <workItem from="1615986422959" duration="190000" />
+      <workItem from="1619958642733" duration="11067000" />
     </task>
+    <task id="LOCAL-00001" summary="arborescence">
+      <created>1615824899588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615824899588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,28 +155,50 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arborescence" />
+    <option name="LAST_COMMIT_MESSAGE" value="arborescence" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1613116351011">
+    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1619958706897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613116351011" />
+    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619958706897" />
     <state x="625" y="224" key="NewModule_or_Project.wizard" timestamp="1613116394916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="224" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613116394916" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1615822520997">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1619966862349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615822520997" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615823401462">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619966862349" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619968642794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615823401462" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619968642794" />
   </component>
 </project>

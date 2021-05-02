@@ -1,1 +1,1 @@
-<?php
+<span class="text-muted">Fleuriste - Nico Condorcet</span>

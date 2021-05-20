@@ -11,11 +11,53 @@ class ProduitBD extends Produit
         $this->_db = $cnx;
     }
 
-    public function mise_a_jourProduit($id){
+    public function supprimer_produit($id_produit){
+        try {
+            $query = "delete from produit where id_produit= :id_produit";
+            $_resultset = $this->_db->prepare($query);
+            $_resultset->bindValue(':id_produit', $id_produit);
+            $_resultset->execute();
+        } catch (PDOException $e) {
+            print $e->getMessage();
+        }
+    }
+    public function mise_a_jourProduit($id_produit, $reference, $nom_produit, $description, $prix, $stock, $id_cat)
+    {
+        try {
+            $query = "update produit set reference= :reference,nom_produit= :nom_produit,prix= :prix,stock= :stock,description= :description ,id_cat= :id_cat where id_produit= :id_produit";
+            $_resultset = $this->_db->prepare($query);
+            $_resultset->bindValue(':reference', $reference);
+            $_resultset->bindValue(':nom_produit', $nom_produit);
+            $_resultset->bindValue(':prix', $prix);
+            $_resultset->bindValue(':stock', $stock);
+            $_resultset->bindValue(':description', $description);
+            $_resultset->bindValue(':id_cat', $id_cat);
+            $_resultset->bindValue(':id_produit', $id_produit);
+            $_resultset->execute();
+        } catch (PDOException $e) {
+            print $e->getMessage();
+        }
+
 
     }
 
-    public function ajout_produit(){
+    public function ajout_produit($nom_produit,$photo, $prix, $stock, $description, $id_cat, $reference)
+    {
+        try {
+            $query = "insert into produit (nom_produit,photo,prix,stock,description,id_cat,reference) values ";
+            $query .= "(:nom_produit,:photo,:prix,:stock,:description,:id_cat,:reference)";
+            $_resultset = $this->_db->prepare($query);
+            $_resultset->bindValue(':nom_produit', $nom_produit);
+            $_resultset->bindValue(':prix', $prix);
+            $_resultset->bindValue(':stock', $stock);
+            $_resultset->bindValue(':description', $description);
+            $_resultset->bindValue(':id_cat', $id_cat);
+            $_resultset->bindValue(':reference', $reference);
+            $_resultset->bindValue(':photo', $photo);
+            $_resultset->execute();
+        } catch (PDOException $e) {
+            print $e->getMessage();
+        }
 
     }
 
@@ -33,6 +75,22 @@ class ProduitBD extends Produit
         return $_data;
     }
 
+    //écrire une requête avec paramètres de position(:champ,:id,...) puis bindValue
+    public function updateProduit($champ, $id, $valeur)
+    {
+        try {
+            //appeler un procédure embarquée
+            $query = "update produit set " . $champ . "= :valeur where id_produit= :id";
+            $_resultset = $this->_db->prepare($query);//transformer la requête!
+            $_resultset->bindValue(':valeur', $valeur);
+            $_resultset->bindValue(':id', $id);
+            $_resultset->execute();
+        } catch (PDOException $e) {
+            print $e->getMessage();
+        }
+
+    }
+
     public function getProduitsBycat($id_cat)
     {
         try {
@@ -48,5 +106,26 @@ class ProduitBD extends Produit
         } catch (PDOException $e) {
             print "Echec de la requête" . $e->getMessage();
         }
+    }
+
+    public function getProduitByref($reference)
+    {
+        try {
+            $this->_db->beginTransaction();
+            $query = "select * from produit where reference= :reference";
+            $resultset = $this->_db->prepare($query);
+            $resultset->bindValue(':reference', $reference);
+            $resultset->execute();
+            $data = $resultset->fetch();
+            return $data;
+            //renvoyer un objet nécéssite adaptation dans ajax pour retour json
+            // donc retourner objet simple, qui sera stocké dans un élément de tableau json
+            $this->_db->commit();
+
+        } catch (PDOException $e) {
+            print "Echec de la requête : " . $e->getMessage();
+            $_db->rollback();
+        }
+
     }
 }

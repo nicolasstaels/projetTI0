@@ -28,6 +28,7 @@ $cnx = Connexion::getInstance($dsn, $user, $password);
 <body>
 <div id="page" class="container">
     <header class="img_header">
+        <a href="./admin/index_.php?page=disconnect.php">Déconnexion</a>
         <img src="./admin/images/banner_fleur.jpg" id="banniere_image" class="img-fluid" alt="...">
     </header>
     <section id="colGauche">

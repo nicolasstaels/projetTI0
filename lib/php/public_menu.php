@@ -12,7 +12,7 @@
                     <a class="nav-link active" href="./index_.php?page=categorie.php">Produits</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Passer commande</a>
+                    <a class="nav-link active" href="./index_.php?page=commander.php">Passer commande</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -20,12 +20,12 @@
                         Connexion
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">se connecter admin</a></li>
-                        <li><a class="dropdown-item" href="#">se connecter client</a></li>
+                        <li><a class="dropdown-item" href="./admin/index_.php?page=accueil_admin.php">se connecter admin</a></li>
+                        <li><a class="dropdown-item" href="./index_.php?page=connexion_client.php">se connecter client</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">S'inscrire</a></li>
+                        <li><a class="dropdown-item" href="./index_.php?page=inscription.php">S'inscrire</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">

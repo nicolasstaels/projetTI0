@@ -28,9 +28,8 @@ $nbr = count($liste);
                                 ?>
                             </p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <i class="fas fa-shopping-basket"></i>
-                                    <button type="button" class="btn btn-outline-secondary">Commander</button>
+                                <div class="btn-group" id="remove_a">
+                                    <button data-id="<?php print $liste[$i]->id_produit;?>" data-bs-toggle="modal" data-bs-target="#info_produit" class="info_produit"> Info </button>
                                 </div>
                             </div>
                         </div>
@@ -38,5 +37,8 @@ $nbr = count($liste);
                 </div>
             <?php } ?>
         </div>
+        <?php
+        include('./pages/info_produit.php');
+        ?>
     </div>
 </div>

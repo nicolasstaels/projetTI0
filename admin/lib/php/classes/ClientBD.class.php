@@ -11,7 +11,7 @@ class ClientBD extends Client
         $this->_db = $cnx;
     }
 
-    public function ajout_client($mail, $mdp, $nom, $prenom, $tel)
+    public function ajout_client($mail, $prenom, $nom, $tel, $mdp)
     {
         try {
             $query = "insert into client (nom,prenom,mail,tel,password) values ";
@@ -21,7 +21,7 @@ class ClientBD extends Client
             $_resultset->bindValue(':prenom', $prenom);
             $_resultset->bindValue(':mail', $mail);
             $_resultset->bindValue(':tel', $tel);
-            $_resultset->bindValue(':password',md5($mdp));
+            $_resultset->bindValue(':password', md5($mdp));
             $_resultset->execute();
         } catch (PDOException $e) {
             print $e->getMessage();
@@ -44,4 +44,5 @@ class ClientBD extends Client
             print "Echec " . $e->getMessage();
         }
     }
+
 }

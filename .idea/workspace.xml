@@ -26,30 +26,28 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc9bbf45-a215-4bf7-a016-a1571952d099" name="Default Changelist" comment="affichage prod/cat ,organisation menu">
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxDetailProduitref.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxUpdateProduit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Client.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/ClientBD.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pages/disconnect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pages/edit_produit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pages/gestion_produits.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/commander.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/connexion_client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/inscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/verifier_connexion_client.php" afterDir="false" />
+    <list default="true" id="fc9bbf45-a215-4bf7-a016-a1571952d099" name="Default Changelist" comment="gestion produit/client/connexion client">
+      <change afterPath="$PROJECT_DIR$/admin/images/fleur1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/fleur2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/fleur3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxInfoProduit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxSetPanier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Commande.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/CommandeBD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/info_covid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/info_produit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/dumps/DumpDB/DBfleuriste02-05-21.sql" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dumps/DumpDB/DBfleuriste02-05-21.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index_.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index_.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/lib/js/fonctions_jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/js/fonctions_jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/admin_liste_include.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/admin_liste_include.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/admin_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/admin_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/ClientBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/ClientBD.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/ProduitBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/ProduitBD.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/verifier_connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/verifier_connexion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pages/accueil_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/accueil_admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index_.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/php/public_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/commander.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/compte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/connexion_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/connexion_client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/produit.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/produit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,22 +87,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\projetTI\admin\images" />
       <recent name="C:\laragon\www\projetTI\admin\lib\php\classes" />
       <recent name="C:\laragon\www\projetTI\admin\lib\php" />
       <recent name="C:\laragon\www\projetTI" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\projetTI\admin\pages" />
       <recent name="C:\laragon\www\projetTI\admin\images" />
+      <recent name="C:\laragon\www\projetTI\admin\pages" />
       <recent name="C:\laragon\www\projetTI\admin\lib\php\classes" />
       <recent name="C:\laragon\www\projetTI\admin\lib\php" />
       <recent name="C:\laragon\www\projetTI\.idea" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,6 +135,9 @@
       <workItem from="1621347378759" duration="16245000" />
       <workItem from="1621367939501" duration="1453000" />
       <workItem from="1621429168676" duration="16819000" />
+      <workItem from="1621509423243" duration="27660000" />
+      <workItem from="1621600000626" duration="100000" />
+      <workItem from="1621622927857" duration="2442000" />
     </task>
     <task id="LOCAL-00001" summary="arborescence">
       <created>1615824899588</created>
@@ -137,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619969802435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gestion produit/client/connexion client">
+      <created>1621509579700</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621509579700</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,25 +198,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="arborescence" />
     <MESSAGE value="affichage prod/cat ,organisation menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="affichage prod/cat ,organisation menu" />
+    <MESSAGE value="gestion produit/client/connexion client" />
+    <option name="LAST_COMMIT_MESSAGE" value="gestion produit/client/connexion client" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1619958706897">
+    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1621600099375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619958706897" />
+    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621600099375" />
     <state x="625" y="224" key="NewModule_or_Project.wizard" timestamp="1613116394916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="224" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613116394916" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1621445076317">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1621622997573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621445076317" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619969823959">
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621622997573" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1621509597741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619969823959" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621509597741" />
     <state x="1920" y="0" width="1598" height="1027" key="dock-window-1" timestamp="1621443478390">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -202,5 +226,13 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2044" y="0" width="1598" height="1027" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621444627015" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1621517727250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621517727250" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1621509712037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621509712037" />
   </component>
 </project>

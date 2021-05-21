@@ -4,9 +4,13 @@ if (isset($_POST['connecter'])) {
     extract($_POST, EXTR_OVERWRITE);
     $cl = new ClientBD($cnx);
     $client = $cl->isClient($mail, $password);
-    if ($client) {
+    if ($client != 0) {
         $_SESSION['user'] = $mail;
-        print "Bienvenue ".$_SESSION['user'];
+        $_SESSION['id'] = $client;
+        print "Bienvenue " . $_SESSION['user'];
+        ?>
+        <meta http-equiv="refresh" : content="0.5;URL=./index_.php?page=accueil.php">
+        <?php
     } else {
         print "identifiant invalide";
     }

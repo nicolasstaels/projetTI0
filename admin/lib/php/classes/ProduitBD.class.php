@@ -11,6 +11,27 @@ class ProduitBD extends Produit
         $this->_db = $cnx;
     }
 
+    public function getProduitById2($id_produit)
+    {
+        try {
+            $this->_db->beginTransaction();
+            $query = "select produit.id_produit,produit.nom_produit,produit.photo,produit.prix,produit.description,produit.stock,categorie.id_cat,categorie.nom_cat from produit,categorie where (produit.id_cat = categorie.id_cat) AND id_produit = :id_produit";
+            $resultset = $this->_db->prepare($query);
+            $resultset->bindValue(':id_produit', $id_produit);
+            $resultset->execute();
+            $data = $resultset->fetch();
+            return $data;
+            //renvoyer un objet nécéssite adaptation dans ajax pour retour json
+            // donc retourner objet simple, qui sera stocké dans un élément de tableau json
+            $this->_db->commit();
+
+        } catch (PDOException $e) {
+            print "Echec de la requête : " . $e->getMessage();
+            $_db->rollback();
+        }
+
+    }
+
     public function supprimer_produit($id_produit){
         try {
             $query = "delete from produit where id_produit= :id_produit";
